@@ -73,6 +73,9 @@
   "/0818tuan/:listId?": [
     "TonyRL"
   ],
+  "/0x80/blog": [
+    "xnum"
+  ],
   "/141jav/{.*}?": [
     "cgkings",
     "nczitzk"
@@ -174,9 +177,6 @@
   "/500px/tribe/set/:id": [
     "TonyRL"
   ],
-  "/500px/user/works/:id": [
-    "TonyRL"
-  ],
   "/50forum/": [
     "sddiky"
   ],
@@ -248,6 +248,9 @@
   ],
   "/abskoop/nsfw": [
     "zhenhappy"
+  ],
+  "/accessbriefing/:category{.+}?": [
+    "nczitzk"
   ],
   "/acfun/article/:categoryId/:sortType?/:timeRange?": [
     "TonyRL"
@@ -414,6 +417,9 @@
     "metowolf",
     "HenryQW",
     "kt286"
+  ],
+  "/apple/podcast/:id": [
+    "Acring"
   ],
   "/appleinsider/:category?": [
     "nczitzk"
@@ -820,6 +826,9 @@
   "/bnu/lib/:category?": [
     "TonyRL"
   ],
+  "/bnu/mba/:category{.+}?": [
+    "nczitzk"
+  ],
   "/boc/whpj/:format?": [
     "LogicJake",
     "HenryQW"
@@ -860,6 +869,9 @@
   ],
   "/bupt/rczp": [
     "nczitzk"
+  ],
+  "/byau/news/:type_id": [
+    "ueiu"
   ],
   "/byteclicks/": [
     "TonyRL"
@@ -1215,6 +1227,9 @@
   "/coindesk/consensus-magazine": [
     "jameshih"
   ],
+  "/colamanga/:id": [
+    "machsix"
+  ],
   "/comicat/search/:keyword": [
     "Cyang39"
   ],
@@ -1261,6 +1276,9 @@
     "btdwv",
     "marvolo666",
     "yan12125"
+  ],
+  "/cpcaauto/news/:type?/:id?": [
+    "nczitzk"
   ],
   "/cpcey/:type?": [
     "Fatpandac"
@@ -1424,6 +1442,9 @@
   "/dedao/user/:id/:type?": [
     "nczitzk"
   ],
+  "/deepin/homepage/:user_id": [
+    "tensor-tech"
+  ],
   "/deeplearning/thebatch": [
     "nczitzk",
     "juvenn"
@@ -1431,6 +1452,9 @@
   "/deepmind/blog": [
     "nczitzk",
     "TonyRL"
+  ],
+  "/dehenglaw/:language?/:category?": [
+    "nczitzk"
   ],
   "/deltaio/blog": [
     "RengarLee"
@@ -1785,6 +1809,9 @@
   "/eprice/:region?": [
     "TonyRL"
   ],
+  "/esquirehk/tag/:id?": [
+    "nczitzk"
+  ],
   "/europechinese/latest": [
     "emdoe"
   ],
@@ -1951,6 +1978,9 @@
   ],
   "/freewechat/profile/:id": [
     "TonyRL"
+  ],
+  "/freexcomic/book/:id": [
+    "junfengP"
   ],
   "/ft/:language/:channel?": [
     "HenryQW",
@@ -2254,6 +2284,9 @@
   ],
   "/gov/jgjcndrc/:id?": [
     "nczitzk"
+  ],
+  "/gov/jiangsu/wlt/:page?": [
+    "GideonSenku"
   ],
   "/gov/jinan/healthcommission/medical_exam_notice": [
     "tzjyxb"
@@ -2631,6 +2664,9 @@
   "/hit/today/:category": [
     "ranpox"
   ],
+  "/hitcon/zeroday/vulnerability/:status?": [
+    "KarasuShin"
+  ],
   "/hitsz/article/:category?": [
     "xandery-geek"
   ],
@@ -2976,6 +3012,9 @@
   ],
   "/issuehunt/funded/:username/:repo": [
     "running-grass"
+  ],
+  "/itc/collection/:colType": [
+    "cnkmmk"
   ],
   "/itch/devlog/:user/:id": [
     "nczitzk"
@@ -3360,11 +3399,13 @@
   ],
   "/lofter/tag/:name?/:type?": [
     "hoilc",
-    "nczitzk"
+    "nczitzk",
+    "LucunJi"
   ],
   "/lofter/user/:name?": [
     "hondajojo",
-    "nczitzk"
+    "nczitzk",
+    "LucunJi"
   ],
   "/logclub/:category{.+}?": [],
   "/logclub/lc_report/:id?": [
@@ -3876,6 +3917,9 @@
   "/njucm/grabszs": [
     "real-jiakai"
   ],
+  "/njuferret/blog": [
+    "tyl0622"
+  ],
   "/njupt/jwc/:type?": [
     "shaoye"
   ],
@@ -4207,7 +4251,9 @@
   "/panewslab/topic/:id": [
     "nczitzk"
   ],
-  "/papers/:category{.+}?": [],
+  "/papers/:category{.+}?": [
+    "nczitzk"
+  ],
   "/paradigm/writing": [
     "Fatpandac"
   ],
@@ -4676,6 +4722,9 @@
   ],
   "/samsung/research/blog": [
     "nczitzk"
+  ],
+  "/sara/:type": [
+    "HChenZi"
   ],
   "/saraba1st/digest/:tid": [
     "shinemoon"
@@ -5373,7 +5422,7 @@
   "/tesla/price": [
     "xiaokyo"
   ],
-  "/test/:id": [
+  "/test/:id/:params?": [
     "DIYgod",
     "NeverBehave"
   ],
@@ -6011,6 +6060,9 @@
   "/wnacg/tag/:tag": [
     "KenMizz"
   ],
+  "/wordpress/:url?/:filter{.+}?": [
+    "nczitzk"
+  ],
   "/worldjournal/:path{.+}?": [],
   "/woshipm/popular/:range?": [
     "WenryXu"
@@ -6128,7 +6180,9 @@
   "/xinpianchang/rank/:category?": [
     "nczitzk"
   ],
-  "/xjtu/dean/:subpath{.+}": [],
+  "/xjtu/dean/:subpath{.+}": [
+    "hoilc"
+  ],
   "/xjtu/ee/:id?": [
     "DylanXie123"
   ],
@@ -6469,7 +6523,7 @@
   "/zhonglun/research/article/:language{[a-zA-Z0-9-]+}?": [
     "nczitzk"
   ],
-  "/zhubai/:id": [
+  "/zhubai/posts/:id": [
     "naixy28"
   ],
   "/zhubai/top20": [
@@ -6528,6 +6582,12 @@
   ],
   "/zrblog/": [
     "cnkmmk"
+  ],
+  "/zsxq/group/:id/:scope?": [
+    "KarasuShin"
+  ],
+  "/zsxq/user/:id": [
+    "KarasuShin"
   ],
   "/zuel/notice": [
     "nczitzk"
