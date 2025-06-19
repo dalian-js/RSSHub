@@ -39363,8 +39363,7 @@ export default {
       "/live": {
         "path": "/live",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 0,
         "example": "/gelonghui/live",
@@ -46075,7 +46074,8 @@ export default {
           "/zhengce/:category{.+}?"
         ],
         "categories": [
-          "government"
+          "government",
+          "popular"
         ],
         "example": "/gov/zhengce/zuixin",
         "parameters": {},
@@ -46110,7 +46110,8 @@ export default {
           "/zhengce/:category{.+}?"
         ],
         "categories": [
-          "government"
+          "government",
+          "popular"
         ],
         "example": "/gov/zhengce/zuixin",
         "parameters": {},
